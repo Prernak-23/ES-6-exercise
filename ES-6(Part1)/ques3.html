@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+.song
+{
+	background-color:pink
+}
+p
+{
+	font-size:30px;
+	text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="song">
+	<p id="demo"></p>
+</div>
+<script>										
+const song = { name: 'Dying to live', artist: 'Tupac', featuring: 'Biggie Smalls' };	
+
+document.getElementById("demo").innerHTML = song.name + " - " + song.artist + "<br>" + "( Featuring " + song.featuring + ")";
+</script>
+</body>
+</html>
